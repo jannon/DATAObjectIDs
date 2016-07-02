@@ -1,5 +1,8 @@
 @import CoreData;
 
+FOUNDATION_EXPORT double DATAObjectIDsVersionNumber;
+FOUNDATION_EXPORT const unsigned char DATAObjectIDsVersionString[];
+
 @interface DATAObjectIDs : NSObject
 
 + (NSDictionary *)objectIDsInEntityNamed:(NSString *)entityName
